@@ -9,8 +9,8 @@
 	],
 	"theme_color": "#9E9E9E",
 	"background_color": "#9E9E9E",
-	"scope":"/memoryapp/",
-	"start_url": "/memoryapp/index.html",
+	"scope":"cmfrandsen.github.io/memoryapp/",
+	"start_url": "cmfrandsen.github.io/memoryapp/index.html",
 	"diplay": "satndalone",
 	"orientation": "portrait"
 	} 
