@@ -65,7 +65,7 @@ display: inline-block;
   top: 0;
 }
 .front {
-  background-color: green;
+  background-color: rgb(60,60,255);
   /* background: url('icon.svg');*/
   background-size: cover;
   backface-visibility: hidden;
