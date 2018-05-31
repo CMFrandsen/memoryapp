@@ -50,7 +50,6 @@ display: inline-block;
   -webkit-transform-style: preserve-3d;
   z-index: 3;
   position: relative;
-  background-color: rgb(60,60,255);
 }
 .flipped {
   transition: 0.3s;
