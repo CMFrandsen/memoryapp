@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="da" manifest="manifest.appcache">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>memory app</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="apple-touch-icon" href="icon.png">
+   <link rel="apple-touch-icon-precomposed" href="icon.png">
+   <link rel="manifest" href="web-app-manifest.json">
+
+  
+</head>
+
+<body>
+
+  <div id="welcome">
+<h1>Velkommen til et spil</h1> 
+<p>vælg antal brikker du vil spille med</p>
+
+<form id="playGame">
+  <input type="radio" name="level" value="16" id="sixteen"></input>
+  <label for="sixteen">16</label>
+  <input type="radio" name="level" value="20" id="twenty" checked></input>
+  <label for="twenty">20</label>
+  <input type="radio" name="level" value="24" id="twentyfour"></input>
+  <label for="twentyfour">24</label>
+
+<button type="submit">start spillet</button> 
+</form>
+</div>
+<div id="board">
+  
+
+
+</div>
+  <div id="message">
+  <p>congrats! you got 'em all!</p>
+  <button>end game!</button>
+  
+  
+
+    <script  src="index.js"></script>
+
+
+
+
+</body>
+
+</html>
