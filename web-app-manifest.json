@@ -11,7 +11,7 @@
 	"background_color": "#9E9E9E",
 	"scope":"cmfrandsen.github.io/memoryapp/",
 	"start_url": "cmfrandsen.github.io/memoryapp/index.html",
-	"diplay": "satndalone",
+	"display": "standalone",
 	"orientation": "portrait"
 	} 
 	
