@@ -37,6 +37,8 @@ function drawBoard(event) {
     content += '</section>';
     board.innerHTML += content;
   }
+  let insertCounter = '<p>du har brugt <span id="counter">0</span> fosøg!</p>';
+  board.innerHTML += insertCounter;
   return false;
 }
 
